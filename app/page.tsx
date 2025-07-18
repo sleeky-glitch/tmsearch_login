@@ -163,6 +163,11 @@ export default function Home() {
                       Sign up
                     </Link>
                   </div>
+                  <div className="text-center text-xs mt-2 pt-2 border-t border-gray-100">
+                    <Link href="/admin/dashboard" className="text-primary-600 hover:underline">
+                      Admin Dashboard
+                    </Link>
+                  </div>
                 </CardFooter>
               </form>
             </Card>
